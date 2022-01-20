@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             var fullname = name.text.toString()
             val mobilenumber = number.text.toString()
-            fullname=getString(R.string.Santona )  //bring string file
+          //  fullname=getString(R.string.Santona )  //bring string file
 
             //This activity and second activity
             val passData = Intent(this,MainActivity2::class.java)
